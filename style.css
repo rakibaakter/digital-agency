@@ -2,9 +2,35 @@
     margin: 0;
     padding: 0;
 }
+/* common classes */
+.btn-color{
+    background-color: tomato;
+    color: white;
+}
+.primary-btn{
+    padding: 18px;
+    border: none;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+.btn-radius{
+    border-radius: 25px;
+    color: gray;
+    /* height: 15px; */
+}
 .primary-color{
     color: tomato;
 }
+.title{
+    font-size: 46px;
+    font-weight: bold;
+}
+.p-primary{
+    font-size: 24px;
+    font-weight: 500;
+    margin: 25px 0px;
+}
+/* nav bar classes */
 .menu-bar{
     background-color: gray;
     display: flex;
@@ -21,13 +47,14 @@
     list-style: none;
     gap: 20px;
 }
+/* banner section classes */
 .banner-container{
     height: 100vh;
     background-image: url("asset/image/background.jpg"),
         linear-gradient(rgba(32, 31, 31, 0.9),rgba(85, 84, 84, 0.1));
+        background-blend-mode: overlay;
     background-repeat: no-repeat;
     background-size: cover;
-    background-blend-mode: overlay;
     background-position: center;
     display: flex;
     align-items: center;
@@ -50,13 +77,71 @@
     font-weight: bold;
     margin: 20px 0px;
 }
-.primary-btn{
-    padding: 18px;
-    border: none;
-    margin-top: 10px;
-    margin-right: 10px;
+/* service section */
+#service-container{
+    height: 100vh;
+    background-image: url("asset/image/footer-bg.png"),
+        linear-gradient(rgba(33, 33, 33, 0.9),rgba(0, 0, 0, 0.9));
+        background-blend-mode: overlay;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 30px 60px;
+
 }
-.btn-color{
-    background-color: tomato;
+.service-description{
     color: white;
+}
+.service-description > h1{
+    margin: 10px 0px;
+}
+.service-description > p{
+    width: 80%;
+}
+.service-description ol{
+    font-size: 18px;
+    font-weight: 500;
+    margin: 20px;
+}
+.author{
+    display: flex;
+    gap: 50px;
+}
+.author-profile{
+    display: flex;
+    gap: 15px;
+    padding-right: 20px;
+    border-right: 2px solid tomato;
+    align-items: center;
+
+}
+.profile-img{
+    height: 70px;
+    width: 70px;
+    border-radius: 35px;
+}
+.author-designation{
+    
+}
+.service-items{
+
+}
+.tow-item-conainer{
+    display: flex;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+.item{
+    height: 300px;
+    width: 300px;
+    background-color: white;
+    text-align: center;
+    border-radius: 10px;
+}
+.item img{
+    width: 30%;
+    margin: 70px 0px 20px; 
 }
