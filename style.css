@@ -150,7 +150,6 @@
 /* appointment section */
 #appointment-section{
     width: 70%;
-    /* height: 200px; */
     margin: auto;
     margin-top: -40px;
     background-color: tomato;
@@ -158,16 +157,41 @@
     justify-content: space-around;
     align-items: center;
     border-radius: 20px;
-    padding: 50px 30px;
+    padding: 10px 30px;
     color: #fff;
 }
 .appointment-call{
     display: flex;
     align-items: center;
-    justify-content: space-evenly;
+    gap: 20px;
     padding-right: 5px;
     border-right: 2px solid gray;
 }
 .appointment-details{
     width: 50%;
+}
+/* blog-section */
+#blog-section{
+    width: 80%;
+    margin: auto;
+    margin-top:90px ;
+    text-align: center;
+}
+.cards{
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+    text-align: left;
+}
+.card{
+    width: 25%;
+    border-radius: 15px;
+    box-shadow: 5px 7px 10px gray;
+}
+.card-img{
+    width: 100%;
+    margin-bottom: 10px ;
+}
+.scale{
+    margin: 10px;
 }
